@@ -1,0 +1,64 @@
+body {
+  background-color: #191308; /* Main dark gray background */
+  color: #e0e0e0;            /* Light gray text for readability */
+  margin: 0;                 /* Removes default browser spacing */
+}
+
+.container {
+  width: 280px;
+  background-color: #191308;
+  border: none;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 8px 2px;         /* A bit more padding makes backgrounds look better */
+  margin: 0;                 /* Removes the default space around h1 tags */
+  background-color: #322a26; /* Darker shade for the header area */
+  color: #ffffff;            /* Bright white text for the title */
+}
+
+.anime-link {
+  color: #edfccc; 
+  text-decoration: none;
+}
+
+.episode-info {
+  color: #ffffff;   
+  font-size: 14px;
+  padding: 0px 8px 2px; /* Padding for better spacing */
+  font-weight: bold;
+  margin: 0;
+  background-color: #322a26;; /* Darker shade for the header area */
+  border-bottom: 1px solid #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  gap: 2px;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  padding: 0px 3px;
+  font-size: 32px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.nav-btn:hover {
+  opacity: 0.7;
+}
+
+.btn-icon {
+  width: 32px;   /* Match this to your font size */
+  height: 32px;  /* Keeps the icon square */
+  object-fit: contain;
+  color: #f0eBd8;
+}

@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.36",
+    "esbuild": "0.28.1",
+    "typescript": "^6.0.3"
+  },
+  "name": "musescore-downloader",
+  "version": "1.0.0",
+  "description": "Prototype project, enabling users to download musescore sheet music in PDF format.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnwfei/muse-extension.git"
+  },
+  "keywords": [],
+  "author": "John Cai",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jonnwfei/muse-extension/issues"
+  },
+  "homepage": "https://github.com/jonnwfei/muse-extension#readme"
+}

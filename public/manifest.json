@@ -1,0 +1,25 @@
+{
+  "name": "Musescore downloader",
+  "version": "1.0",
+  "description": "Allows you to download musescore sheet music in PDF format.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://musescore.com/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://musescore.com/*"],
+      "js": ["contentscript.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/ext-icon.png",
+      "24": "icons/ext-icon.png",
+      "32": "icons/ext-icon.png"
+    },
+    "default_title": "Musescore downloader",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
